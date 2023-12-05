@@ -1,5 +1,7 @@
 body {
-    background-color: #070405;
+    background-image: url("/Images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #ffffff; 
 }
 .Logo{
@@ -9,9 +11,10 @@ body {
 
   .grid {
     position: absolute;
-    width: 50%;
-    height: 50%;
+    width: 150px;
+    height: 150px;
     transition: background-color 0.2s ease-in-out;
+    background-color: #fdc40c;
   }
   .grid:hover {
     background-color: pink;
@@ -19,50 +22,21 @@ body {
   .grid-item1 {
     top: 0;
     left: 0;
-    background-color: yellow;
     border-radius: 0 0 100% 0;
-    width: 150px;
-    height: 150px;
+    
   }
   .grid-item2 {
     top: 0;
     right: 0;
-    background-color: yellow;
     border-radius: 0 0 0 100%;
-    width: 150px;
-    height: 150px;
   }
   .grid-item3 {
     bottom: 0;
     left: 0;
-    background-color: yellow;
     border-radius: 0 100% 0 0;
-    width: 150px;
-    height: 150px;
   }
   .grid-item4 {
     bottom: 0;
     right: 0;
-    background-color: yellow;
     border-radius: 100% 0 0 0;
-    width: 150px;
-    height: 150px;
   }
-
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-   }
-   
-   
-   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-   }
