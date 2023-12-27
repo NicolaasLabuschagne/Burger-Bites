@@ -5,10 +5,9 @@ body {
     color: #ffffff; 
 }
 .Logo{
-    display: grid;
-    place-items: center;
-    height:"700";
-    width:"700";
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
   .grid {
@@ -18,14 +17,14 @@ body {
     transition: background-color 0.2s ease-in-out;
     background-color: #fdc40c;
   }
-  .grid:hover {
-    background-color: pink;
-  }
+  
   .grid-item1 {
     top: 0;
     left: 0;
     border-radius: 0 0 100% 0;
-    
+  }
+  .grid-item1:hover{
+    background-image: url("../Images/pizza.jpeg");
   }
   .grid-item2 {
     top: 0;
@@ -52,3 +51,23 @@ body {
     width : 500px;
     background-color: black;
   }
+
+  #arrow-container {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+#arrow1 {
+    top: -600px;
+    left: 100px;
+}
+
+#arrow2 {
+    top: 100px;
+    left: 150px;
+}

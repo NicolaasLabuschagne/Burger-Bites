@@ -1,0 +1,60 @@
+body {
+    background-image: url("/V3/Images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Remove default margin */
+}
+
+/*Pizza's*/
+  .Food{
+    display: flex;
+    justify-content:space-between;
+    border-bottom :#fff;
+  }
+
+  .hrow{
+    margin-bottom: 3%;
+    border-bottom: 2px solid #fdc40c;
+  }
+  .irow{
+    margin-bottom: 3%;
+  }
+  
+  .row {
+    background-color: #2a2f35; /* Darker grey background color for container */
+    border: 5px solid #fdc40c; /* Yellow border color */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-top: 20px; /* Optional: Add some margin at the top */
+    color:#fff;
+  }
+
+  .price{
+    color: #fdc40c;
+  }
+  
+  .extras{
+    background-color: #2a2f35; /* Darker grey background color for container */
+    border: 5px solid #fdc40c; /* Yellow border color */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-top: 20px; /* Optional: Add some margin at the top */
+    color:#fff;
+  }
+  
+  /* Add a solid line between columns */
+  .col-md-6 {
+    border-right: 2px solid #fdc40c;
+  }
+  
+  /* Remove right border from the last column to avoid extra line */
+  .col-md-6:last-child {
+    border-right: none;
+  }

@@ -1,0 +1,57 @@
+body {
+    background-image: url("../Images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 100px;
+    padding: 10px;
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+  }
+
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+
+
+  .NavBut {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    width: 70%;
+    margin-bottom: 6%;
+    transition: border-color 0.3s ease; /* Add a smooth transition effect for border color */
+  }
+
+  .NavBut:hover {
+    border-color: #fdc40c;
+  }
+.fa {
+  overflow: hidden;
+  outline: none;
+  color: #ffffff;
+  text-decoration: none;
+    width: 45%;
+}
