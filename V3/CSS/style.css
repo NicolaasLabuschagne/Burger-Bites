@@ -1,7 +1,6 @@
 body {
     background-image: url("../Images/background.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     color: #ffffff;
     font-family: Arial, sans-serif;
     line-height: 1.6; 
@@ -29,7 +28,13 @@ body {
     font-size: 30px;
   }
 
+  .but{
+    background-color: transparent;
+    color: #ffffff;
+    border: none !important;
+    text-decoration: none;
 
+  }
 
   .NavBut {
     background-color: transparent;
@@ -40,9 +45,10 @@ body {
     outline: none;
     color: #ffffff;
     text-decoration: none;
-    width: 70%;
+    width: 100%;
     margin-bottom: 6%;
     transition: border-color 0.3s ease; /* Add a smooth transition effect for border color */
+    text-align: center;
   }
 
   .NavBut:hover {
@@ -54,4 +60,24 @@ body {
   color: #ffffff;
   text-decoration: none;
     width: 45%;
+}
+
+.row {
+  background-color: #2a2f35; /* Darker grey background color for container */
+  border: 5px solid #fdc40c; /* Yellow border color */
+  padding: 20px;
+  border-radius: 10px; /* Optional: Add rounded corners */
+  margin-top: 20px; /* Optional: Add some margin at the top */
+  color:#fff;
+}
+
+
+/* Add a solid line between columns */
+.col-md-6 {
+  border-right: 2px solid #fdc40c;
+}
+
+/* Remove right border from the last column to avoid extra line */
+.col-md-6:last-child {
+  border-right: none;
 }
