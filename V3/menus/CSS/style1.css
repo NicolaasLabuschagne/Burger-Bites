@@ -1,5 +1,5 @@
 body {
-    background-image: url("/V3/Images/background.jpg");
+    background-image: url("../Images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
@@ -57,4 +57,31 @@ body {
   /* Remove right border from the last column to avoid extra line */
   .col-md-6:last-child {
     border-right: none;
+  }
+
+.but{
+    background-color: transparent;
+    color: #ffffff;
+    border: none !important;
+    text-decoration: none;
+
+  }
+
+.NavBut1{
+  background-color: transparent;
+    border: 5px solid #fdc40c;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 6%;
+    transition: border-color 0.3s ease; /* Add a smooth transition effect for border color */
+    text-align: center;
+}
+
+  .NavBut1:hover {
+    border-color: #fff;
   }
